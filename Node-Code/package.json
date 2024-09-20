@@ -1,0 +1,16 @@
+{
+  "name": "your-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "dev-js": "nodemon 'src/index.js'"
+  },
+  "dependencies": {
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.4"
+  }
+}
